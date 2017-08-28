@@ -1,0 +1,62 @@
+---
+title: Pretty Bird Chicken
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    read_time: true
+lang: en-US
+email: 
+description: 
+baseurl: 
+url: 
+author:
+  name: 
+  twitter: 
+  picture: 
+twitter_username: 
+github_username: 
+logo: 
+markdown: kramdown
+theme: jekyll-theme-basically-basic
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-paginate
+feed:
+  path: atom.xml
+paginate: 10
+paginate_path: "/page:num/"
+exclude:
+- ".asset-cache"
+- ".bundle"
+- ".codeclimate.yml"
+- ".editorconfig"
+- ".gitattributes"
+- ".jekyll-assets-cache"
+- ".sass-cache"
+- ".scss-lint.yml"
+- CHANGELOG
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- node_modules
+- Rakefile
+- README
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+- "/docs"
+- "/example"
