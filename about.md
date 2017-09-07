@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: "/about/"
+image: "/uploads/13183369_227174074336172_507729273_n.jpg"
 layout: page
 ---
 
