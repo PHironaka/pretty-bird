@@ -16,19 +16,18 @@ defaults:
     layout: post
     read_time: true
 lang: en-US
-email: 
-description: 
-baseurl: 
-url: 
+email:
+description:
+baseurl:
+url:
 author:
-  name: 
-  twitter: 
-  picture: 
-twitter_username: 
-github_username: 
-logo: 
+  name:
+  twitter:
+  picture:
+twitter_username:
+github_username:
+logo:
 markdown: kramdown
-theme: jekyll-theme-basically-basic
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
