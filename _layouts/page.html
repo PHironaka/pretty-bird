@@ -7,10 +7,35 @@ layout: default
   <div class="inner">
     <article class="entry-wrap">
       <div class="entry-content">
-
         {{ content }}
       </div>
+
     </article>
+
+    <article class="menu-wrap">
+        <h2>Menu</h2>
+        {% for Menu in site.menu %}
+          <div class="menu-content">
+            <p>{{Menu.title}}</p>
+            <p>{{Menu.content}}</p>
+          </div>
+        {% endfor %}
+
+    </article>
+
+    <article class="team-wrap">
+        {% for Team in site.team %}
+          <div class="team-content">
+            <img src="{{Team.image}}" alt="{{Team.title}}">
+            <p>{{Team.title}}</p>
+            <p>{{Team.content}}</p>
+          </div>
+        {% endfor %}
+
+    </article>
+
+
+
 
     {% include footer.html %}
   </div>
