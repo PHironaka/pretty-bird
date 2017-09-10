@@ -25,8 +25,9 @@ layout: default
 
     <article class="team-wrap">
         {% for Team in site.team %}
-          <div class="team-content">
             <img src="{{Team.image}}" alt="{{Team.title}}">
+            <div class="team-content">
+
             <p>{{Team.title}}</p>
             <p>{{Team.content}}</p>
           </div>

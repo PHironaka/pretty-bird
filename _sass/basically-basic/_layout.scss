@@ -152,6 +152,14 @@ main {
     }
   }
 
+  .team-wrap {
+    img {
+      @include span(4 of 16);
+      border-radius: 50%;
+      
+    }
+  }
+
 }
 
 .layout--about {
