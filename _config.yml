@@ -23,10 +23,10 @@ defaults:
     read_time: true
 lang: en-US
 email: 
-description: 'No reservations. First come, first serve. Please direct all other inquiries
-  to info@prettybirdchicken.com
+description: |-
+  No reservations. First come, first serve. Please direct all other inquiries to info@prettybirdchicken.com
 
-'
+  call: (310)487-8413
 baseurl: 
 url: 
 author:
