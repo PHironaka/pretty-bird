@@ -1,7 +1,7 @@
-<nav id="nav-primary" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
-  <ul id="menu-main-navigation" class="menu">
+<nav id="nav-primary" class="site-nav " itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu row">
     <!-- Home link -->
-    <li class="menu-item">
+    <li class="menu-item col">
       <a href="{{ '/' | relative_url }}" itemprop="url">
         <span itemprop="name">{{ site.data.theme.t.home | default: 'Home' }}</span>
       </a>
@@ -9,12 +9,11 @@
 
     <!-- site.pages links -->
     {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.data.theme.navigation_pages | default: default_paths %}
 
-    {% for path in page_paths %}
+    {% for path in default_paths %}
       {% assign my_page = site.pages | where: "path", path | first %}
       {% if my_page.title %}
-        <li class="menu-item">
+        <li class="menu-item col">
           <a href="{{ my_page.url | relative_url }}" itemprop="url">
             <span itemprop="name">{{ my_page.title | escape }}</span>
           </a>

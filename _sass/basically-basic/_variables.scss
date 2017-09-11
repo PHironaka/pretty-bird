@@ -3,7 +3,7 @@
    ========================================================================== */
 
 /* Breakpoint widths */
-$small: 320px !default;
+$small: 480px !default;
 $medium: 768px !default;
 $large: 58em !default;
 $xlarge: 1280px !default;
@@ -38,7 +38,7 @@ $h6-min: ($base-font-size / $modular-scale-1) !default;
 $h6-max: ($base-font-size / $modular-scale-2) !default;
 
 /* Base font family */
-$base-font-family: "Fira Sans", sans-serif !default;
+$base-font-family: "PT Sans Narrow", sans-serif !default;
 /* Other font families */
 $headline-font-family: $base-font-family !default;
 $monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !default;
