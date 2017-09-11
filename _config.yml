@@ -23,7 +23,10 @@ defaults:
     read_time: true
 lang: en-US
 email: 
-description: 
+description: 'No reservations. First come, first serve. Please direct all other inquiries
+  to info@prettybirdchicken.com
+
+'
 baseurl: 
 url: 
 author:
