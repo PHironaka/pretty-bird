@@ -65,3 +65,4 @@ exclude:
 - vendor/ruby/
 - "/docs"
 - "/example"
+address: 1234 Main Street Salt Lake City, UT 123456
