@@ -1,15 +1,10 @@
 ---
 title: About
 permalink: "/about/"
+image: "/uploads/13183369_227174074336172_507729273_n.jpg"
 layout: page
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## About the Restaurant
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Specific knowledge means that these are things that you can learn with some effort and study. They should not be broad categories like “security”, “design”, or “server-side development”. They should be things you know or know how to do, not things you “have experience with”. And they should be specific enough that somebody can feel comfortable saying they understand the topic or don’t. Most of the things I list below are topics, but I try to lay out a specific set of things that you would need to know to understand it.

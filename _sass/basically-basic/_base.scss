@@ -7,10 +7,16 @@ html {
 }
 
 body {
-  display: -ms-flexbox;
-  display: flex;
   background: $background-color;
   color: $text-color;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: normal;
+
+
+}
+
+h1, h2, h3 {
+  font-weight: normal;
 }
 
 blockquote,
@@ -111,8 +117,8 @@ a {
   }
 }
 
-*:focus {
-  border-color: $accent-color;
-  outline: none;
-  box-shadow: 0 0 10px $accent-color;
-}
+// *:focus {
+//   border-color: $accent-color;
+//   outline: none;
+//   box-shadow: 0 0 10px $accent-color;
+// }

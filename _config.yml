@@ -2,8 +2,14 @@
 title: Pretty Bird Chicken
 timezone: UTC
 collections:
+  menu:
+    title: Menu
+    output: true
   posts:
     title: Posts
+    output: true
+  team:
+    title: Team
     output: true
   uploads:
     title: Uploads
@@ -17,7 +23,10 @@ defaults:
     read_time: true
 lang: en-US
 email: 
-description: 
+description: |-
+  No reservations. First come, first serve. Please direct all other inquiries to info@prettybirdchicken.com
+
+  call: (310)487-8413
 baseurl: 
 url: 
 author:
@@ -28,7 +37,6 @@ twitter_username:
 github_username: 
 logo: 
 markdown: kramdown
-theme: jekyll-theme-basically-basic
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
@@ -60,3 +68,5 @@ exclude:
 - vendor/ruby/
 - "/docs"
 - "/example"
+address: 1234 Main Street Salt Lake City, UT 123456
+subtext: nashville style hot chicken

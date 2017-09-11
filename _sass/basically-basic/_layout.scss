@@ -20,11 +20,31 @@ overflow: hidden;
 }
 
 .logo {
-      margin: 3em;
+      margin: 0em 39%;
+}
+
+.subtext {
+  width: 250px;
+  margin: 0 auto;
+  padding: 15px 0 ;
+  border-top: 1px solid #c25e45;
+  border-bottom: 1px solid #c25e45;
+  h3 {
+    margin: 0;
+  }
+}
+
+.background-image {
+  background: url(/uploads/13183369_227174074336172_507729273_n.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  max-width: 100%;
+  height: 445px;
+  margin-top: 30px;
 }
 
 .landing {
-  margin: 75% 0;
+    margin: 33% 0;
   h1 {
     color: #6cb3b7;
     text-align: center;
@@ -68,35 +88,27 @@ overflow: hidden;
   z-index: 100;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+
 }
 
-.intro,
-main {
-
-  > .inner {
-    padding: 0 0.5rem;
-
-    @include breakpoint($small) {
-      padding-right: 1rem;
-      padding-left: 1rem;
-    }
-
-    @include breakpoint($medium) {
-      padding-right: 2rem;
-      padding-left: 2rem;
-    }
-
-    @include breakpoint($large) {
-      padding-right: 3rem;
-      padding-left: 3rem;
-    }
-
-    @include breakpoint($xlarge) {
-      padding-right: 4rem;
-      padding-left: 4rem;
-    }
-  }
+.row {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  max-width: 53em;
+margin: 0 auto;
+  padding-right: 2em;
+padding-left: 2em;
+}
+
 
 main {
 
@@ -105,8 +117,11 @@ main {
   }
 }
 
-.inner {
-  max-width: $large;
+.col {
+  flex: 1 1 8%;
+  margin: 0 0 0.5rem 0;
+  padding: 0.5em 10px;
+  box-sizing: border-box;
 }
 
 /*
@@ -116,12 +131,64 @@ main {
 .layout--post,
 .layout--page {
 
-  .entry-content {
+.menu-item  {
+  flex-basis: 8.3333%;
+  text-align: center;
+  list-style: none;
+}
 
-    @include breakpoint($large) {
-      width: span(14 of 16);
-    }
+  .menu-wrap, .entry-wrap, .title-area {
+    text-align: center;
+
+ flex-basis: 100%;
   }
+
+  .entry-wrap {
+    margin-top: 3em;
+  }
+
+  .menu-wrap {
+    border-bottom: 1px solid #6EB3B7;
+    padding-bottom: 2em;
+  }
+
+
+.contact-wrap {
+  flex-basis: 41.6666%;
+  margin-right: 2em;
+  margin-top: 2em;
+  a {
+      flex-basis: 100%;
+      margin: 10px;
+  }
+}
+
+.contact-map {
+  flex-basis: 50%;
+  margin-top: 2em;
+
+}
+    .team-image {
+      margin-top: 2em;
+        flex-basis: 25%;
+
+      img {
+        border-radius: 50%;
+        max-width: 150px;
+      }
+
+    }
+    .team-content {
+      margin-top: 2em;
+
+        flex-basis: 66.6666%;
+
+    }
+
+    .pb-insta {
+       flex-basis: 33.3333%;
+           margin: 2em 0;
+    }
 }
 
 .layout--about {
@@ -131,6 +198,7 @@ main {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+
 
     @include breakpoint($medium) {
       -ms-flex-wrap: nowrap;
