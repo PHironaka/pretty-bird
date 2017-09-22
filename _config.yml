@@ -71,7 +71,7 @@ exclude:
 address: 1234 Main Street Salt Lake City, UT 123456
 subtext: nashville style hot chicken
 phone: "(347) 555-1234"
-hours-description: |-
-  **M-Th** 5p–11p
-  **F-Sa** 12p–11p
-  **Su** 10a–11p
+hours: |-
+  M-Th 5p–11p
+  F-Sa 12p–11p
+  Su 10a–11p
