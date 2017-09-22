@@ -2,6 +2,9 @@
 title: Pretty Bird Chicken
 timezone: UTC
 collections:
+  drinks:
+    title: Drinks
+    output: true
   menu:
     title: Menu
     output: true
