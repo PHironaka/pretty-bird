@@ -5,6 +5,8 @@ image: "/uploads/13183369_227174074336172_507729273_n.jpg"
 layout: page
 ---
 
-## About the Restaurant
+## Located in Park Slope, Pacific Tavern is a purveyor of fine American dining from the esteemed Chef Billy Lang.
 
-Specific knowledge means that these are things that you can learn with some effort and study. They should not be broad categories like “security”, “design”, or “server-side development”. They should be things you know or know how to do, not things you “have experience with”. And they should be specific enough that somebody can feel comfortable saying they understand the topic or don’t. Most of the things I list below are topics, but I try to lay out a specific set of things that you would need to know to understand it.
+Pacific Tavern opened in May 2010 and is located inside the Smith Hotel Brooklyn. Since then, Golden Spork winner Chef Lang has been serving both quality interpretations of classic dishes and daring new ventures into the uncharted territories of food.
+
+Pacific Tavern's interior, designed by the award-winning Hayden Collective, reflects the hip sensibilities of the surrounding area while also paying tribute to Brooklyn's storied past. The multi-level restaurant offers the choice to observe passers-by in the glass-encased Cascade Bar on the 2nd floor, or watch the art of cooking as it occurs in the open-kitchen dining room.
