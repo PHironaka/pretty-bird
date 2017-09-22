@@ -5,7 +5,7 @@ image: "/uploads/13183369_227174074336172_507729273_n.jpg"
 layout: page
 ---
 
-## Located in Park Slope, Pacific Tavern is a purveyor of fine American dining from the esteemed Chef Billy Lang.
+## Located in Salt Lake City, Pretty Bird is a purveyor of fine American dining from the esteemed Chef Billy Lang.
 
 Pacific Tavern opened in May 2010 and is located inside the Smith Hotel Brooklyn. Since then, Golden Spork winner Chef Lang has been serving both quality interpretations of classic dishes and daring new ventures into the uncharted territories of food.
 
