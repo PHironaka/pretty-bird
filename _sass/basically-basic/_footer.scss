@@ -4,20 +4,24 @@
 
 .site-footer {
   margin-top: 4rem;
-  color: tint($text-color, 40%);
+  color: white;
   font-size: 80%;
   width: 100%;
+      display: inline-block;
+          background-color: #6eb3b7;
 
   ul  {
     list-style: none;
     width: 92px;
     margin: 0 auto;
     display: block;
-    padding: 0;
+        padding: 2em 0 0;
 
     li {
       display: inline;
       margin: 0 1em;
+      padding:1em 0;
+
 
       a {
         display: inline-block;
