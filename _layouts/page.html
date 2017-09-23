@@ -3,14 +3,38 @@ layout: default
 ---
 
 <main id="main" class="page-content" aria-label="Content">
-  <div class="background-image"> </div>
+
   <div class="inner">
-    <article class="entry-wrap col">
-      <div class="entry-content">
+
+    <div class="background-image">
+        <!-- <img src="{{site.asset}}" alt=""> -->
+    </div>
+
+      <div class="entry-content col">
         {{ content }}
       </div>
 
-    </article>
+      <div class="entry-operation col">
+        <h3>Phone</h3>
+        <p>{{site.phone}}</p>
+        <h3>Location</h3>
+        <p>{{site.address}}</p>
+        <h3>Hours</h3>
+        <p>{{site.hours}}</p>
+
+      </div>
+      <div class="pb-insta col">
+        <img src="/uploads/20987348_127394674557791_1525660584987590656_n-636e9e.jpg" alt="{{Team.title}}">
+      </div>
+
+      <div class="pb-insta col">
+        <img src="/uploads/21568487_1917323348593453_8130512407182180352_n.jpg" alt="{{Team.title}}">
+      </div>
+
+      <div class="pb-insta col">
+        <img src="/uploads/21147254_1545587908796573_2231164407088414720_n.jpg" alt="{{Team.title}}">
+      </div>
+
 
     <article class="menu-wrap col">
         <h2>Menu</h2>
@@ -37,25 +61,14 @@ layout: default
 
 
 
-      <div class="pb-insta col">
-        <img src="/uploads/Group.jpg" alt="{{Team.title}}">
-      </div>
 
-      <div class="pb-insta col">
-        <img src="/uploads/Group.jpg" alt="{{Team.title}}">
-      </div>
 
-      <div class="pb-insta col">
-        <img src="/uploads/Group.jpg" alt="{{Team.title}}">
-      </div>
-
-      <div class="contact-wrap col">
+      <!-- <div class="contact-wrap col">
           <h2>Contact</h2>
           <p>{{site.address}}</p>
           <p>{{site.description}}</p>
         <a href="https://twitter.com/peterhironaka">
         <?xml version="1.0" encoding="utf-8"?>
-        <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         	 width="20px" height="20px" viewBox="0 0 16.002 16" enable-background="new 0 0 16.002 16" xml:space="preserve">
@@ -73,7 +86,6 @@ layout: default
 
         <?xml version="1.0" encoding="UTF-8"?>
         <svg width="20px" height="20px" viewBox="0 0 504 504" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
             <title>glyph-logo_May2016</title>
             <desc>Created with Sketch.</desc>
             <defs>
@@ -100,7 +112,7 @@ layout: default
 
       <div class="contact-map col">
         <img src="/uploads/map.jpg" alt="placeholder map">
-      </div>
+      </div> -->
 
     {% include footer.html %}
   </div>
