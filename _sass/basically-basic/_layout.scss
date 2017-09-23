@@ -2,6 +2,113 @@
    Layout
    ========================================================================== */
 
+   .slider {
+     margin: 0 auto;
+     max-width: 940px;
+   }
+
+   .slide_viewer {
+     height: 340px;
+     overflow: hidden;
+     position: relative;
+   }
+
+   .slide_group {
+     height: 100%;
+     position: relative;
+     width: 100%;
+   }
+
+   .slide {
+     display: none;
+     height: 100%;
+     position: absolute;
+     width: 100%;
+   }
+
+   .slide:first-child {
+     display: block;
+   }
+
+   .slide:nth-of-type(1) {
+     background: #D7A151;
+   }
+
+   .slide:nth-of-type(2) {
+     background: #F4E4CD;
+   }
+
+   .slide:nth-of-type(3) {
+     background: #C75534;
+   }
+
+   .slide:nth-of-type(4) {
+     background: #D1D1D4;
+   }
+
+   .slide_buttons {
+     left: 0;
+     position: absolute;
+     right: 0;
+     text-align: center;
+   }
+
+   a.slide_btn {
+     color: #474544;
+     font-size: 42px;
+     margin: 0 0.175em;
+     -webkit-transition: all 0.4s ease-in-out;
+     -moz-transition: all 0.4s ease-in-out;
+     -ms-transition: all 0.4s ease-in-out;
+     -o-transition: all 0.4s ease-in-out;
+     transition: all 0.4s ease-in-out;
+   }
+
+   .slide_btn.active, .slide_btn:hover {
+     color: #428CC6;
+     cursor: pointer;
+   }
+
+   .directional_nav {
+     height: 340px;
+     margin: 0 auto;
+     max-width: 940px;
+     position: relative;
+     top: -340px;
+   }
+
+   .previous_btn {
+     bottom: 0;
+     left: 100px;
+     margin: auto;
+     position: absolute;
+     top: 0;
+   }
+
+   .next_btn {
+     bottom: 0;
+     margin: auto;
+     position: absolute;
+     right: 100px;
+     top: 0;
+   }
+
+   .previous_btn, .next_btn {
+     cursor: pointer;
+     height: 65px;
+     opacity: 0.5;
+     -webkit-transition: opacity 0.4s ease-in-out;
+     -moz-transition: opacity 0.4s ease-in-out;
+     -ms-transition: opacity 0.4s ease-in-out;
+     -o-transition: opacity 0.4s ease-in-out;
+     transition: opacity 0.4s ease-in-out;
+     width: 65px;
+   }
+
+   .previous_btn:hover, .next_btn:hover {
+     opacity: 1;
+   }
+
 .canvas {
   position: relative;
   width: 100%;
@@ -41,7 +148,12 @@ overflow: hidden;
   background-attachment: scroll;
   max-width: 100%;
   height: 445px;
-  margin-top: 30px;
+  margin-top: 0;
+  width: 100%;
+
+  @media (max-width: 480px) {
+  height: 330px;
+  }
 }
 
 .landing {
@@ -110,6 +222,19 @@ margin: 0 auto;
 padding-left: 2em;
 }
 
+.inner-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  max-width: 15em;
+margin: 0 auto;
+  padding-right: 2em;
+padding-left: 2em;
+}
+
+
+
 
 main {
 
@@ -127,13 +252,33 @@ main {
 
 #tacos {
   fill: #6eb3b7;
-  animation: dance 1s infinite alternate;
+  animation: dance .4s  alternate ;
+  animation-iteration-count: 5;
 }
 
 @keyframes dance {
-  100% {
-    transform: rotate(2deg);
-  }
+  0% {
+    opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+#pb {
+  animation-duration: 2s;
+ animation-name: slidein;
+ animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  0% {
+    opacity: 0;
+   }
+
+   100% {
+      opacity: 1;
+   }
 }
 
 /*
@@ -149,19 +294,38 @@ main {
   list-style: none;
 }
 
-  .menu-wrap, .entry-wrap, .title-area {
+  .menu-wrap,  .title-area {
     text-align: center;
 
  flex-basis: 100%;
   }
 
-  .entry-wrap {
-    margin-top: 3em;
-  }
+    .entry-content {
+      margin: 3em 0 ;
+
+      flex-basis: 66.666%;
+      @media (max-width: 480px) {
+        flex-basis: 100%;
+        margin: 1em 0;
+      }
+    }
+
+    .entry-operation {
+      margin: 3em 0 ;
+      flex-basis: 18.333%;
+      padding: 0 1em;
+      @media (max-width: 480px) {
+        flex-basis: 100%;
+        margin: 0;
+
+      }
+    }
+
 
   .menu-wrap {
     border-bottom: 1px solid #6EB3B7;
-    padding-bottom: 2em;
+    border-top: 1px solid #6EB3B7;
+    padding: 2em 0;
   }
 
 
@@ -183,10 +347,17 @@ main {
     .team-image {
       margin-top: 2em;
         flex-basis: 25%;
+        @media (max-width: 480px) {
+          flex-basis: 100%;
+        }
 
       img {
         border-radius: 50%;
         max-width: 150px;
+        @media (max-width: 480px) {
+        max-width: 100%;
+        border-radius: 0;
+        }
       }
 
     }
@@ -200,6 +371,11 @@ main {
     .pb-insta {
        flex-basis: 33.3333%;
            margin: 2em 0;
+
+           @media (max-width: 480px) {
+             flex-basis: 100%;
+             margin: 0 0 1em ;
+           }
     }
 }
 

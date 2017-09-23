@@ -6,8 +6,27 @@
   margin-top: 4rem;
   color: tint($text-color, 40%);
   font-size: 80%;
+  width: 100%;
+
+  ul  {
+    list-style: none;
+    width: 92px;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+
+    li {
+      display: inline;
+      margin: 0 1em;
+
+      a {
+        display: inline-block;
+      }
+    }
+  }
 }
 
 .copyright {
-  font-family: $monospace-font-family;
+  margin-top: 3em;
+  text-align: center;
 }
