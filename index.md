@@ -3,4 +3,4 @@ position: 2
 layout: home
 ---
 
-OPEN  OCTOBER 2017
+OPEN  DECEMBER 2017
