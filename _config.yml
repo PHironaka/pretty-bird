@@ -26,10 +26,8 @@ defaults:
     read_time: true
 lang: en-US
 email: 
-description: |-
-  No reservations. First come, first serve. Please direct all other inquiries to info@prettybirdchicken.com
-
-  call: (310)487-8413
+description: "A Nashville-style hot chicken restaurant coming soon to downtown Salt
+  Lake City, Utah by Viet Pham!\n\n"
 baseurl: 
 url: 
 author:
