@@ -5,6 +5,7 @@ layout: home
 ---
 
 OPEN  JANUARY 2018
+
 info@prettybirdchicken.com
 
 Monday- Thursday 11-9
