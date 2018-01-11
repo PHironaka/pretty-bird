@@ -8,11 +8,12 @@ layout: home
 
 [info@prettybirdchicken.com](mailto:info@prettybirdchicken.com)
 
+146 S Regent St.
+Salt Lake City, UT 84111
+
 Monday- Thursday 11-9
 
 Friday-Saturday 11-10
 
 Sunday closed
 
-146 S Regent St.
-Salt Lake City, UT 84111
