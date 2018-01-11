@@ -1,4 +1,5 @@
 ---
+title: index
 position: 2
 layout: home
 ---
