@@ -4,7 +4,7 @@ position: 2
 layout: home
 ---
 
-OPEN  JANUARY 2018
+## OPEN  JANUARY 2018
 
 [info@prettybirdchicken.com](mailto:info@prettybirdchicken.com)
 
