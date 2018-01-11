@@ -4,4 +4,9 @@ position: 2
 layout: home
 ---
 
-OPEN  DECEMBER 2017
+OPEN  JANUARY 2018
+info@prettybirdchicken.com
+
+Monday- Thursday 11-9
+Friday-Saturday 11-10
+Sunday closed
