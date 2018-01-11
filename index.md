@@ -13,3 +13,6 @@ Monday- Thursday 11-9
 Friday-Saturday 11-10
 
 Sunday closed
+
+146 S Regent St.
+Salt Lake City, UT 84111
