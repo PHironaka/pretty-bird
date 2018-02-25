@@ -1,8 +1,8 @@
 ---
-title: Old London Martini
+title: Fried Chicken Sandwich Combo
 date: 2017-01-01 23:21:00 Z
-price: 10
-item: cocktail
+price: 15
+item: Combo
 ---
 
-london dry, old tom, orange bitters
+served with choice of side + soda
