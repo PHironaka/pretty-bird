@@ -1,8 +1,7 @@
 ---
-title: Pork Belly
+title: Crinkle Cut Fries
 date: 2016-12-23 00:55:00 Z
-price: 15
-item: warm
+price: 3
+item: Sides
 ---
 
-pork bellymiso pork belly, radishes
