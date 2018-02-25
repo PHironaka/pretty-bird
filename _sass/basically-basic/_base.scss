@@ -7,11 +7,11 @@ html {
 }
 
 body {
-  background: $background-color;
-  color: $text-color;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-weight: normal;
-
+    color: #6EB3B7;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: normal;
+    background-image: url(/assets/images/bg.svg);
+    background-attachment: fixed;
 
 }
 
@@ -110,7 +110,8 @@ figcaption {
 }
 
 a {
-  color: $accent-color;
+  color: #6db3b7;
+  text-decoration:none;
 
   &:hover {
     color: shade($accent-color, 25%);

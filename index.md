@@ -1,16 +1,14 @@
 ---
 title: Home
 position: 2
-layout: home
+layout: page
 ---
 
-## OPEN  JANUARY 2018
 
 [info@prettybirdchicken.com](mailto:info@prettybirdchicken.com)
 
-Monday- Thursday 11-9
+Monday-Saturday 11am-9pm.
 
-Friday-Saturday 11-10
 
 Sunday closed
 
