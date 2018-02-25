@@ -1,8 +1,9 @@
 ---
-title: Mushrooms
+title: Fried Chicken Sandwich
 date: 2016-12-23 00:56:00 Z
-price: 14
-item: warm
+price: 10.5
+item: Hot Chicken
 ---
 
-variety of mushrooms, multiple preparations, mushroom broth
+boneless chicken thigh, slaw, pickles,
+pretty bird sauce, buttered bun
