@@ -4,7 +4,6 @@ position: 2
 layout: page
 ---
 
-
 [info@prettybirdchicken.com](mailto:info@prettybirdchicken.com)
 
 <<<<<<< HEAD
