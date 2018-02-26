@@ -8,6 +8,9 @@ collections:
   drinks:
     title: Drinks
     output: true
+  extras:
+    title: Extras
+    output: true
   menu:
     title: Menu
     output: true
