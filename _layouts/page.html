@@ -18,6 +18,7 @@ layout: default
 
 
     <article class="menu-wrap col">
+<div class="menu-content--item">
         <h2>Menu</h2>
         {% for Menu in site.menu %}
           <div class="menu-content">
@@ -25,6 +26,9 @@ layout: default
             <p>{{Menu.content}}</p>
           </div>
         {% endfor %}
+                  </div>
+
+<div class="menu-content--item">
         <h2>Combo Plates</h2>
         {% for combo-plates in site.combo-plates %}
           <div class="menu-content">
@@ -32,12 +36,13 @@ layout: default
             <p>{{combo-plates.content}}</p>
           </div>
         {% endfor %}
+          </div>
 
         <div class="sides">
          <h2>Sides</h2>
         {% for sides in site.sides %}
           <div class="menu-content">
-            <p>{{sides.title}} <span>{{sides.price}}</span></p>
+            <h3>{{sides.title}}</h3> <span>{{sides.price}}</span>
           </div>
         {% endfor %}
 </div>
@@ -47,11 +52,21 @@ layout: default
           <h2>Extras</h2>
         {% for extras in site.extras %}
           <div class="menu-content">
-            <p>{{extras.title}} <span>{{extras.price}}</span></p>
+            <h3>{{extras.title}}</h3> <span>{{extras.price}}</span>
           </div>
         {% endfor %}
 </div>
 
+<div class="menu-content--item">
+
+ <h2>Beverages</h2>
+        {% for drinks in site.drinks %}
+          <div class="menu-content">
+            <h3>{{drinks.title}} </h3><span>{{drinks.price}}</span>
+          </div>
+        {% endfor %}
+
+</div>
     </article>
 
 

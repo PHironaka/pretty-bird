@@ -257,6 +257,10 @@ padding-left: 2em;
       color: #d9775b;
 }
 
+.menu-content--item {
+  margin-top:2em;
+}
+
 .menu-content h3 {
   width: 90%;
 }
@@ -346,7 +350,7 @@ main {
   }
 
     .entry-content {
-      margin: 3em 0 ;
+      margin: 3em 0 0 ;
       text-align:center;
 
       flex-basis: 100%;
