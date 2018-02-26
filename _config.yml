@@ -2,6 +2,9 @@
 title: Pretty Bird Chicken
 timezone: UTC
 collections:
+  combo-plates:
+    title: Combo Plates
+    output: true
   drinks:
     title: Drinks
     output: true
