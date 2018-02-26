@@ -245,6 +245,34 @@ padding-left: 2em;
 }
 }
 
+.menu-content {
+  margin:1em 0;
+}
+
+.menu-content h3, .menu-content p {
+  margin:0;
+}
+
+.menu-content span {
+      color: #d9775b;
+}
+
+.menu-content h3 {
+  width: 90%;
+}
+
+.menu-content h3, .menu-content span {
+  display:inline-block;
+}
+
+
+.sides {
+      width: 44%;
+    margin-top: 2em;
+    margin-right: 2em;
+    display: inline-block;
+
+}
 
 
 
@@ -355,11 +383,7 @@ main {
   }
 }
 
-.contact-map {
-  flex-basis: 50%;
-  margin-top: 2em;
 
-}
     .team-image {
       margin-top: 2em;
         flex-basis: 25%;

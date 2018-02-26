@@ -21,17 +21,36 @@ layout: default
         <h2>Menu</h2>
         {% for Menu in site.menu %}
           <div class="menu-content">
-            <p>{{Menu.title}} <span>{{Menu.price}}</span></p>
+            <h3>{{Menu.title}}</h3>  <span>{{Menu.price}}</span>
             <p>{{Menu.content}}</p>
           </div>
         {% endfor %}
         <h2>Combo Plates</h2>
         {% for combo-plates in site.combo-plates %}
           <div class="menu-content">
-            <p>{{combo-plates.title}} <span>{{combo-plates.price}}</span></p>
+            <h3>{{combo-plates.title}} </h3><span>{{combo-plates.price}}</span>
             <p>{{combo-plates.content}}</p>
           </div>
         {% endfor %}
+
+        <div class="sides">
+         <h2>Sides</h2>
+        {% for sides in site.sides %}
+          <div class="menu-content">
+            <p>{{sides.title}} <span>{{sides.price}}</span></p>
+          </div>
+        {% endfor %}
+</div>
+
+        <div class="sides">
+
+          <h2>Sides</h2>
+        {% for sides in site.sides %}
+          <div class="menu-content">
+            <p>{{sides.title}} <span>{{sides.price}}</span></p>
+          </div>
+        {% endfor %}
+</div>
 
     </article>
 
