@@ -1,6 +1,6 @@
 ---
 title: Crinkle Cut Fries
 date: 2018-02-26 00:16:00 Z
-prices: 3
+price: 3
 ---
 
