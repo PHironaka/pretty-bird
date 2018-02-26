@@ -8,10 +8,12 @@ layout: page
 
 Monday-Saturday 11am-9pm.
 
+Sunday closed
+
+
 146 S Regent St.
 Salt Lake City, UT 84111
 
 
 
-Sunday closed
 
