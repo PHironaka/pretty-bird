@@ -25,6 +25,13 @@ layout: default
             <p>{{Menu.content}}</p>
           </div>
         {% endfor %}
+        <h2>Combo Plates</h2>
+        {% for combo-plates in site.combo-plates %}
+          <div class="menu-content">
+            <p>{{combo-plates.title}} <span>{{combo-plates.price}}</span></p>
+            <p>{{combo-plates.content}}</p>
+          </div>
+        {% endfor %}
 
     </article>
 

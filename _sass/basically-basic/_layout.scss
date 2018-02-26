@@ -225,9 +225,9 @@ overflow: hidden;
   background:white;
   max-width: 48em;
 margin: 0 auto;
-  padding-right: 2em;
-padding-left: 2em;
-padding-top:2em;
+  padding-right: 4em;
+padding-left: 4em;
+padding-top:4em;
 }
 
 .inner-header {
@@ -307,9 +307,14 @@ main {
 }
 
   .menu-wrap,  .title-area {
-    text-align: center;
 
  flex-basis: 100%;
+
+  h2 {
+      color: #d9775b;
+      border-bottom: 1px solid #d9775b;
+      padding-bottom: 10px;
+  }
   }
 
     .entry-content {
@@ -336,8 +341,7 @@ main {
 
 
   .menu-wrap {
-    border-top: 1px solid #d9785c;
-    padding: 2em 0;
+    padding: 0 0 2em;
   }
 
 
