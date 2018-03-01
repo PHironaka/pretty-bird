@@ -235,12 +235,22 @@ padding-top:4em;
   flex-direction: row;
   flex-wrap: wrap;
 
-  max-width: 15em;
+  max-width: 26em;
 margin: 0 auto;
   padding-right: 2em;
 padding-left: 2em;
 @media (max-width: 480px) {
-  max-width: 15em;
+  max-width: 200px;
+
+    margin: 0 auto;
+    padding-right:0;
+    padding-left:0;
+    max-width:100%;
+    display:block;
+
+
+
+
 
 }
 }
