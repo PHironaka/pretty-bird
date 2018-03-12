@@ -3,7 +3,7 @@
    ========================================================================== */
 
    header {
-   margin: 2em 0;
+   margin: 2em 0 0;
    }
 
    .slider {
@@ -151,9 +151,7 @@ overflow: hidden;
   margin-top: 0;
   width: 100%;
 
-  @media (max-width: 480px) {
-  height: 330px;
-  }
+ 
 }
 
 .landing {
@@ -388,6 +386,33 @@ main {
 
   .menu-wrap {
     padding: 0 0 2em;
+  }
+
+  .how-hot {
+      margin: 2em auto;
+    text-align: center;
+    flex-basis: 100%;
+
+    @media (max-width: 480px) {
+        flex-basis: 100%;
+              margin: 2em 0 0;
+
+
+      }
+
+      svg {
+      width:589px;
+      height:103px;
+ @media (max-width: 480px) {
+              width:300px;
+              height:auto;
+              margin:0;
+
+
+      }
+
+      }
+
   }
 
 
